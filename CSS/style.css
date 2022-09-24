@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75,800;100,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color:white;
+    background-attachment:scroll;
+}
+
+nav ul{
+    height: 10vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 0 2vh;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav{
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+img{
+    width: 18vh;
+    padding-left: 30vh;
+    padding-right: 2vh;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+footer{
+    background-color: #d3c8cb3b;;
+    height: 10vh;
+    margin-top: 300vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.foot p{
+    color:black;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    height: 100vh;
+}
+.slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.SLIDER1{
+    width: 96%;
+    margin-right: 119vh;
+    margin-left: 92vh;
+}
+
+/* .SLIDER2{
+    width: 70%;
+    overflow: hidden;
+    margin-right: 21vh;
+} */
+
+.options{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 20vh;
+    margin-left: 20vh;
+    width: 8vh;
+}
+
+.newlink{
+    display: grid;
+    grid-row-gap: 4px;
+    grid-column-gap: 4px;
+    grid-template-columns: auto auto auto auto;
+    margin-left: 44vh;
+    margin-right: 27vh;
+    margin-top: 2vh;
+    color: rgba(69, 11, 103, 0.642);
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+
+.spotcont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15vh;
+}
+
+.inspot{
+    width: 75%;
+    height: 20%;
+    margin-right: 22vh;
+    padding-left: 25vh;
+}
+
+.business{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20vh;
+    margin-left: 10vh;
+    font-family: 'Open Sans', sans-serif;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+

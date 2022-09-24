@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75,800;100,400&display=swap');
+
+.cardsupper{
+    display: grid;
+    grid-row-gap: 4px;
+    grid-column-gap: 0px;
+    grid-template-columns: auto auto auto auto;
+    padding-right: 19vh;
+    margin-right: 14vh;
+    margin-top: 18vh;
+    margin-bottom: 4vh;
+    font-family: 'Open Sans', sans-serif;
+    font-size: x-large;
+}
+
+
+
+.cards{
+    height: 32vh;
+    width: 39vh;
+    padding-left: 10vh;
+    padding-right: 5vh;
+    display: flex;
+    justify-content: center;
+}
+
+.Desc{
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+    padding-left: 5vh;
+}
+
+
+
+.cardsLOWER{
+    display: grid;
+    grid-row-gap: 4px;
+    grid-column-gap: 0px;
+    grid-template-columns: auto auto auto auto;
+    padding-right: 19vh;
+    margin-right: 14vh;
+    margin-top: 2vh;
+    margin-bottom: 4vh;
+    font-family: 'Open Sans', sans-serif;
+    font-size: x-large;
+}
+
+
+
+.Lcards{
+    height: 32vh;
+    width: 39vh;
+    padding-left: 10vh;
+    padding-right: 5vh;
+    display: flex;
+    justify-content: center;
+}
+
+.DescL{
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+    padding-left: 10vh;
+}
+
+
+
